@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="myDiv" class="header">
+        <h2 style="margin: 5px;">WORK TO-DOS</h2>
+        <div style="margin: 5px;">
+        <p style="color: rgb(215, 185, 191); font-size: 20px;">Enter text into the input field to add items to your list (max. 28 characters).</p>
+        <p style="color: rgb(81, 223, 112); font-size: 20px;">Click the item to mark it as complete.</p>
+        <p style="color: rgb(2, 95, 112); font-size: 20px;">Click the "X" to remove the item from your list.</p>
+        </div>
+        <input type="text" id="myInput" placeholder="New item...">
+        <span onclick="newElement()" class="addBtn"><i class="fa fa-pencil pencil" aria-hidden="true" id="pencil"></i></span>
+    </div>
+    <ul id="myUL">
+       
+    </ul>
+
+    
+</body>
+</html>
