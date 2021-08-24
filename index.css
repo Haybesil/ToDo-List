@@ -47,9 +47,9 @@ user-select: none;
 
 
 /* Set all odd list items to a different color */
- /* ul li:nth-child(odd) { 
+  ul li:nth-child(odd) { 
     background: #f9f9f9;
-} */
+} 
 
 /* Darker background-color on hover */
 ul li:hover{
@@ -57,14 +57,14 @@ background: green;
 }
 
 /* When clicked on, add a background color and strike out */
-/* ul li.checked{
+ ul li.checked{
   background: #888;
   color: #fff;
   text-decoration: line-through;
-} */
+} 
 
 /* Add a checked mark when clicked on */
-/* ul li.checked::before {
+ ul li.checked::before {
     content: '';
     position: absolute;
     border-color: #fff;
@@ -75,7 +75,7 @@ background: green;
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
-} */
+} 
 
 /* Style the close button */
 .close {
